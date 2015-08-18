@@ -232,10 +232,10 @@
 
   humanizeDuration.humanizer = humanizer;
   humanizeDuration.getSupportedLanguages = getSupportedLanguages;
-
+  var humanizedInterval = humanInterval;
   if (typeof module !== "undefined" && module.exports) {
-    module.exports = humanInterval;
+    module.exports = humanizedInterval;
   } else {
-    global.humanInterval = humanInterval;
+    global.humanizedInterval = humanInterval;
   };
 })(this);
