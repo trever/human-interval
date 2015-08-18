@@ -54,7 +54,7 @@ want to extend it, you can do so by adding more keys to the language map.
 Alternatively you could add support for alternative languages.
 
 ```js
-var humanizedInterval = require('human-interval');
+var humanizedInterval = require('humanized-interval');
 humanizedInterval.languageMap['one-hundred'] = 100
 
 // Adds support for the following:
