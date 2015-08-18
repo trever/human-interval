@@ -1,5 +1,7 @@
-# Human Interval
-Human readable interval parser for Node.js/the Browser.
+# Humanized Interval
+Human readable interval parser and human-readable generator for Node.js/the Browser.
+
+Merged and wrapped [rschmukler/human-interval](http://github.com/rschmukler/human-interval) and [EvanHahn/HumanizeDuration.js](https://github.com/EvanHahn/HumanizeDuration.js) into a single utility.
 
 Heavily inspired by
 [matthewmueller/date](http://github.com/matthewmueller/date).
@@ -21,10 +23,14 @@ setTimeout(function() {
 humanInterval understands all of the following examples:
 
 ```js
-humanInterval('one minute');
-humanInterval('1.5 minutes');
-humanInterval('3 days and 4 hours');
-humanInterval('3 days, 4 hours and 36 seconds');
+humanInterval('one minute'); // 60000
+humanInterval('1.5 minutes'); // 90000
+humanInterval('3 days and 4 hours'); // 273600000
+humanInterval('3 days, 4 hours and 36 seconds'); // 273636000
+
+humanInterval(50000); // "5 seconds"
+humanInterval(90000); // "1.5 minutes"
+
 ```
 
 ## The full list

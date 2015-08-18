@@ -1,5 +1,5 @@
 {
-  "name": "human-interval",
+  "name": "humanized-interval",
   "version": "0.1.5",
   "description": "Human readable time measurements",
   "main": "index.js",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/rschmukler/human-interval"
+    "url": "git://github.com/trever/human-interval"
   },
   "keywords": [
     "interval",
     "time",
     "date"
   ],
-  "author": "Ryan Schmukler <ryan@slingingcode.com> (http://slingingcode.com/)",
+  "author": "Trever Faden <trever@trever.co> (http://trever.co/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rschmukler/human-interval/issues"
+    "url": "https://github.com/trever/human-interval/issues"
   },
   "devDependencies": {
     "expect.js": "~0.2.0"
